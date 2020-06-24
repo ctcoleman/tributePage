@@ -1,23 +1,98 @@
-* {
-    margin: 0;
+/*
+=== Basic Styling ===
+*/
+
+html {
+    margin: 0 5vw;
     padding: 0;
     outline: 0;
     box-sizing: border-box;
+    font-size: 62.5%;
 }
 
 body {
-    background: ;
-    color: ;
+    background: grey;
+    color: black;
     -webkit-font-smoothing: antialiased;
 }
 
 body,
 input,
 button {
-    font-size: ;
-    font-family: ;
+    font-size: 5rem;
+    font-family: 'Helvetica';
 }
 
 button {
     cursor: pointer;
+}
+
+/*
+=== Header Styling ===
+*/
+#title {
+    font-size: 6rem;
+    text-align: center;
+    flex: 1;
+}
+.heading h2 {
+    font-size: 4rem;
+    text-align: center;
+}
+#img-div {
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#image {
+    width: 30%;
+    max-width: 60%;
+    height: auto;
+    border-radius: 50%;
+}
+#img-caption {
+    margin-top: 3vh;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*
+=== Article Styling ===
+*/
+
+#tribute-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    font-size: 2rem;
+}
+article ul {
+    width: 60vw;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+article ul li {
+    text-align: center;
+    margin-top: 5vh;
+}
+#tribute-link {
+    text-decoration: none;
+    font-size: 2.5rem;
+    color: black;
+
+}
+
+/*
+=== Footer Styling ===
+*/
+footer {
+    position: absolute;
+    right: 0;
+    color: white;
+    font-size: 2.5rem;
 }
