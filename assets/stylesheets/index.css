@@ -1,0 +1,130 @@
+/*
+=== Basic Styling ===
+*/
+
+/* font-family: 'Advent Pro', sans-serif; */
+
+html {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+body {
+    background: white;
+    color: #f45326;
+    -webkit-font-smoothing: antialiased;
+}
+
+body,
+input,
+button {
+    font-size: 5rem;
+    font-family: 'Helvetica';
+}
+
+button {
+    cursor: pointer;
+}
+
+#main {
+    text-align: center;
+    font-family: 'Advent Pro', sans-serif;
+    font-weight: 600;
+}
+/*
+=== Header Styling ===
+*/
+h2 {
+    font-size: 3rem;
+}
+h3 {
+    font-size: 2rem;
+}
+header.heading {
+    color: #463200;
+    background: rgba(47, 61, 88, 0.418);
+    text-align: center;
+    width: 80vw;
+    padding: 5vh 5vw;
+    margin-left: 5vw;
+    height: auto;
+    box-shadow: inset 3px 3px 3px #f45326, inset -3px -3px 3px #ffbb08;
+}
+#title {
+    font-size: 5rem;
+}
+.billGatesHeader {
+    width: 30%;
+    height: auto;
+    max-width: 40vh;
+    margin: 0 auto;
+    opacity: 0.8;
+    border-radius: 50px;
+    box-shadow: -1px -3px 3px #05a6f1, 1px 3px 3px #82bc06;
+}
+#microsoftLogo {
+    height: 20%;
+    margin: 10% 0;
+}
+#img-caption {
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*
+=== Article Styling ===
+*/
+
+.mainList {
+    list-style: none;
+    width: 75vw;
+    margin: 0 auto;
+}
+.listItem {
+    background: #05a6f15b;
+    font-size: 2.5rem;
+    text-align: left;
+    margin: 5vh auto;
+    padding: 50px;
+    border-radius: 5px;
+}
+.listItem:hover {
+    box-shadow: inset 3px 3px 3px #f45326, inset -3px -3px 3px #ffbb08;
+}
+#tribute-link {
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 5px;
+    border: 1px solid black;
+}
+#tribute-link:hover {
+    color: white;
+    background: black;
+}
+
+/*
+=== Footer Styling ===
+*/
+footer {
+    background: grey;
+    color: white;
+    position: absolute;
+    right: 0;
+    font-size: 1.5rem;
+}
+
+@media only screen and (max-width: 500px) {
+    #billGatesHeader {
+        width: 50%;
+    }
+    .listItem {
+        font-size: 2rem;
+    }
+}
+
+@media only screen and (min-width: 600px)
